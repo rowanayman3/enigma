@@ -35,7 +35,6 @@ namespace Binary_Charm
 
         public MainWindow()
         {
-            // To link the form with the other forms
             this.Visibility = Visibility.Hidden;
             InitializeComponent();
             Hide();
@@ -50,7 +49,7 @@ namespace Binary_Charm
             btnCheck.IsEnabled = false;
             // The Check Button will be disabled till the user start the game it will be enabled
         }
-       
+        //con
         public MainWindow(bool doNotMakeInvisiblity)
         {
             InitializeComponent();

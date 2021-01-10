@@ -15,7 +15,7 @@
     <Grid Name="mainGrid" >
 
         <!-- We need to add 5 Rows in this Application -->
-      
+
         <Grid.RowDefinitions>
 
             <RowDefinition Height="100"></RowDefinition>
@@ -24,12 +24,10 @@
             <RowDefinition Height="19*"></RowDefinition>
             <RowDefinition Height="239*"></RowDefinition>
 
-        <!-- We need to add 10 columns -->
-            
         </Grid.RowDefinitions>
 
-        
-        <!-- The first coloumn is to add the tag 256 and its TextBox and enigma button-->
+        <!-- We need to add 10 columns -->
+        <!-- The first coloumn is to add the tag 256 and its TextBox -->
         <!-- The second coloumn is to add the tag 128 and its TextBox -->
         <!-- The third coloumn is to add the tag 64 and its TextBox -->
         <!-- The fourth coloumn is to add the tag 32 and its TextBox -->
@@ -83,7 +81,8 @@
             Grid.Column="9" 
             Height="33" 
             VerticalAlignment="Bottom"
-            Background="Red" Margin="0,0,0,49" 
+            Background="Red"
+            Margin="0,0,0,49"
             Grid.RowSpan="2"
             >Help
         </Button>
@@ -99,7 +98,7 @@
             Grid.Column="0" 
             Grid.Row="1" 
             HorizontalAlignment="Center"
-            Margin="20,1,21,98" 
+            Margin="20,1,21,98"
             Grid.RowSpan="2"
             >256
         </Label>
@@ -108,8 +107,8 @@
             FontSize="20" 
             Grid.Column="1" 
             Grid.Row="1" 
-            HorizontalAlignment="Center" 
-            Margin="21,1,20,98" 
+            HorizontalAlignment="Center"
+            Margin="21,1,20,98"
             Grid.RowSpan="2"
             >128
         </Label>
@@ -118,7 +117,7 @@
             FontSize="20" 
             Grid.Column="2" 
             Grid.Row="1" 
-            HorizontalAlignment="Center"
+            HorizontalAlignment="Center" 
             Margin="26,1,25,98" 
             Grid.RowSpan="2"
             >64
@@ -128,8 +127,8 @@
             FontSize="20"
             Grid.Column="3" 
             Grid.Row="1" 
-            HorizontalAlignment="Center"
-            Margin="25,1,26,98"
+            HorizontalAlignment="Center" 
+            Margin="25,1,26,98" 
             Grid.RowSpan="2"
             >32
         </Label>
@@ -138,7 +137,7 @@
             FontSize="20" 
             Grid.Column="4" 
             Grid.Row="1" 
-            HorizontalAlignment="Center"
+            HorizontalAlignment="Center" 
             Margin="26,1,25,98" 
             Grid.RowSpan="2"
             >16
@@ -148,8 +147,8 @@
             FontSize="20" 
             Grid.Column="5" 
             Grid.Row="1" 
-            HorizontalAlignment="Center" 
-            Margin="31,1,31,98" 
+            HorizontalAlignment="Center"
+            Margin="31,1,31,98"
             Grid.RowSpan="2"
             >8
         </Label>
@@ -159,7 +158,7 @@
             Grid.Column="6"
             Grid.Row="1" 
             HorizontalAlignment="Center" 
-            Margin="31,1,31,98"
+            Margin="31,1,31,98" 
             Grid.RowSpan="2"
             >4
         </Label>
@@ -168,8 +167,8 @@
             FontSize="20" 
             Grid.Column="7" 
             Grid.Row="1" 
-            HorizontalAlignment="Center"
-            Margin="31,1,31,98"
+            HorizontalAlignment="Center" 
+            Margin="31,1,31,98" 
             Grid.RowSpan="2"
             >2
         </Label>
@@ -178,8 +177,8 @@
             FontSize="20" 
             Grid.Column="8" 
             Grid.Row="1" 
-            HorizontalAlignment="Center" 
-            Margin="31,1,31,98"
+            HorizontalAlignment="Center"
+            Margin="31,1,31,98" 
             Grid.RowSpan="2"
             >1
         </Label>
@@ -202,7 +201,7 @@
             HorizontalAlignment="Center"
             Width="70" 
             Height="70"
-            Background="LightBlue" 
+            Background="LightBlue"
             Margin="6,18,7,12"
             />
 
@@ -277,7 +276,7 @@
             HorizontalAlignment="Center" 
             Width="70" 
             Height="70" 
-            Background="LightBlue"
+            Background="LightBlue" 
             Margin="7,18,6,12"
             />
 
@@ -307,7 +306,7 @@
             HorizontalAlignment="Center" 
             Width="70" 
             Height="70" 
-            Background="LightBlue"
+            Background="LightBlue" 
             Margin="7,18,6,12"
             />
 
@@ -322,7 +321,7 @@
             HorizontalAlignment="Center" 
             Width="70" 
             Height="70" 
-            Background="LightBlue"
+            Background="LightBlue" 
             Margin="6,18,7,12"
             />
 
@@ -336,8 +335,7 @@
             FontSize="32" 
             Foreground="Red"
             HorizontalContentAlignment="Center"
-            Margin="0,92,0,213" 
-            Grid.RowSpan="3"
+            Margin="0,92,0,213" Grid.RowSpan="3"
             >Question
         </Label>
 
@@ -376,9 +374,9 @@
             Click="enigma"
             FontSize="16"
             Grid.Row="4"
-            Background="LightSkyBlue"
             Grid.ColumnSpan="1"
-            Width="60"
+            Width="60" 
+            Background="SkyBlue"
             Margin="14,158.485,9,14"
             >enigma</Button>
 

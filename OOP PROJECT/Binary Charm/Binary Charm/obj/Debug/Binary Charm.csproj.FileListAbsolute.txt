@@ -47,20 +47,3 @@ C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\B
 C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.CoreCompileInputs.cache
 C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm.exe
 C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm.pdb
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\bin\Debug\Binary Charm.exe.config
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\bin\Debug\Binary Charm.exe
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\bin\Debug\Binary Charm.pdb
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csprojAssemblyReference.cache
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\MainWindow.g.cs
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\App.g.cs
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm_MarkupCompile.cache
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm_MarkupCompile.lref
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\MainWindow.baml
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.g.resources
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Form1.resources
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Form2.resources
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Properties.Resources.resources
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.GenerateResource.cache
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.CoreCompileInputs.cache
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.exe
-C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.pdb
