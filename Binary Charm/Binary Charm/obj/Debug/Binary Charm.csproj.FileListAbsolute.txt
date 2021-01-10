@@ -1,0 +1,66 @@
+D:\Binary Operations\Binary Charm\Binary Charm\bin\Debug\Binary Charm.exe.config
+D:\Binary Operations\Binary Charm\Binary Charm\bin\Debug\Binary Charm.exe
+D:\Binary Operations\Binary Charm\Binary Charm\bin\Debug\Binary Charm.pdb
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csprojAssemblyReference.cache
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\MainWindow.g.cs
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\App.g.cs
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\Binary Charm_MarkupCompile.cache
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\Binary Charm_MarkupCompile.lref
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\MainWindow.baml
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\Binary Charm.g.resources
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Properties.Resources.resources
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.GenerateResource.cache
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.CoreCompileInputs.cache
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\Binary Charm.exe
+D:\Binary Operations\Binary Charm\Binary Charm\obj\Debug\Binary Charm.pdb
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\bin\Debug\Binary Charm.exe.config
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\bin\Debug\Binary Charm.exe
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\bin\Debug\Binary Charm.pdb
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csprojAssemblyReference.cache
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\MainWindow.g.cs
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\App.g.cs
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary Charm_MarkupCompile.cache
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary Charm_MarkupCompile.lref
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\MainWindow.baml
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary Charm.g.resources
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Properties.Resources.resources
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.GenerateResource.cache
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.CoreCompileInputs.cache
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary Charm.exe
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary Charm.pdb
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Form1.resources
+C:\Users\Hassan Sayed\Downloads\Compressed\Binary Charm-20210108T234749Z-001\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Form2.resources
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\bin\Debug\Binary Charm.exe.config
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\bin\Debug\Binary Charm.exe
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\bin\Debug\Binary Charm.pdb
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csprojAssemblyReference.cache
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\MainWindow.g.cs
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\App.g.cs
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm_MarkupCompile.cache
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm_MarkupCompile.lref
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\MainWindow.baml
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm.g.resources
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Form1.resources
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Form2.resources
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Properties.Resources.resources
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.GenerateResource.cache
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.CoreCompileInputs.cache
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm.exe
+C:\Users\Rowan Ayman\Downloads\OOP PROJECT\Binary Charm\Binary Charm\obj\Debug\Binary Charm.pdb
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\bin\Debug\Binary Charm.exe.config
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\bin\Debug\Binary Charm.exe
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\bin\Debug\Binary Charm.pdb
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csprojAssemblyReference.cache
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\MainWindow.g.cs
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\App.g.cs
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm_MarkupCompile.cache
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm_MarkupCompile.lref
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\MainWindow.baml
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.g.resources
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Form1.resources
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Form2.resources
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary_Charm.Properties.Resources.resources
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.GenerateResource.cache
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.csproj.CoreCompileInputs.cache
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.exe
+C:\Users\Rowan Ayman\Downloads\enigma\Binary Charm\Binary Charm\obj\Debug\Binary Charm.pdb

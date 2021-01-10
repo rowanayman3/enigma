@@ -1,0 +1,386 @@
+﻿<Window x:Class="Binary_Charm.MainWindow" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Binary_Charm"
+        mc:Ignorable="d"
+        Title="Binary Charm"
+        Height="550" 
+        Width="850">
+
+    <!-- Binary Charm word in the Title is the Application Name -->
+    <!-- The grid name will be mainGrid -->
+
+    <Grid Name="mainGrid" >
+
+        <!-- We need to add 5 Rows in this Application -->
+      
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="19*"></RowDefinition>
+            <RowDefinition Height="239*"></RowDefinition>
+
+        <!-- We need to add 10 columns -->
+            
+        </Grid.RowDefinitions>
+
+        
+        <!-- The first coloumn is to add the tag 256 and its TextBox and enigma button-->
+        <!-- The second coloumn is to add the tag 128 and its TextBox -->
+        <!-- The third coloumn is to add the tag 64 and its TextBox -->
+        <!-- The fourth coloumn is to add the tag 32 and its TextBox -->
+        <!-- The fifth coloumn is to add the tag 16 and its TextBox -->
+        <!-- The sixth coloumn is to add the tag 8 and its TextBox -->
+        <!-- The seventh coloumn is to add the tag 4 and its TextBox -->
+        <!-- The eighth coloumn is to add the tag 2 and its TextBox -->
+        <!-- The ninth coloumn is to add the tag 1 and its TextBox -->
+        <!-- The tenth coloumn is to add the Start and Help Buttons -->
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+
+
+        </Grid.ColumnDefinitions>
+        <!-- This Label will be shown in the Top Left in the Application to Highlight the Application's name -->
+
+        <Label 
+            FontSize="32" 
+            Height="100" 
+            VerticalContentAlignment="Center" 
+            Grid.ColumnSpan="5"
+            >Binary Charm
+        </Label>
+
+        <!-- Start Button will start the game and get a new random binary in a Question -->
+
+        <Button 
+            Click="StartGame" 
+            Grid.Column="9" 
+            Height="33" 
+            VerticalAlignment="Top"
+            Background="Blue"
+            >Start
+        </Button>
+
+        <!-- Help Button will show a MessageBox with the Game Instructions -->
+
+        <Button
+            Click="ShowHelp" 
+            Grid.Column="9" 
+            Height="33" 
+            VerticalAlignment="Bottom"
+            Background="Red" Margin="0,0,0,49" 
+            Grid.RowSpan="2"
+            >Help
+        </Button>
+
+        <!-- These Labels are on the top of TextBoxes-->
+        <!-- Each label is aligned to a TextBox so the user can calculate when the program runs -->
+        <!-- Binary Numbers start from right to left, The left side will represent the larger numbers and the right side will represent the smaller numbers -->
+        <!-- In these labels the FontSize, GridRow, HorizontakAlignment will stay the same in all the labels -->
+        <!-- The GridColumn will increase 1 from left to right -->
+
+        <Label 
+            FontSize="20" 
+            Grid.Column="0" 
+            Grid.Row="1" 
+            HorizontalAlignment="Center"
+            Margin="20,1,21,98" 
+            Grid.RowSpan="2"
+            >256
+        </Label>
+
+        <Label 
+            FontSize="20" 
+            Grid.Column="1" 
+            Grid.Row="1" 
+            HorizontalAlignment="Center" 
+            Margin="21,1,20,98" 
+            Grid.RowSpan="2"
+            >128
+        </Label>
+
+        <Label 
+            FontSize="20" 
+            Grid.Column="2" 
+            Grid.Row="1" 
+            HorizontalAlignment="Center"
+            Margin="26,1,25,98" 
+            Grid.RowSpan="2"
+            >64
+        </Label>
+
+        <Label
+            FontSize="20"
+            Grid.Column="3" 
+            Grid.Row="1" 
+            HorizontalAlignment="Center"
+            Margin="25,1,26,98"
+            Grid.RowSpan="2"
+            >32
+        </Label>
+
+        <Label
+            FontSize="20" 
+            Grid.Column="4" 
+            Grid.Row="1" 
+            HorizontalAlignment="Center"
+            Margin="26,1,25,98" 
+            Grid.RowSpan="2"
+            >16
+        </Label>
+
+        <Label
+            FontSize="20" 
+            Grid.Column="5" 
+            Grid.Row="1" 
+            HorizontalAlignment="Center" 
+            Margin="31,1,31,98" 
+            Grid.RowSpan="2"
+            >8
+        </Label>
+
+        <Label
+            FontSize="20" 
+            Grid.Column="6"
+            Grid.Row="1" 
+            HorizontalAlignment="Center" 
+            Margin="31,1,31,98"
+            Grid.RowSpan="2"
+            >4
+        </Label>
+
+        <Label
+            FontSize="20" 
+            Grid.Column="7" 
+            Grid.Row="1" 
+            HorizontalAlignment="Center"
+            Margin="31,1,31,98"
+            Grid.RowSpan="2"
+            >2
+        </Label>
+
+        <Label
+            FontSize="20" 
+            Grid.Column="8" 
+            Grid.Row="1" 
+            HorizontalAlignment="Center" 
+            Margin="31,1,31,98"
+            Grid.RowSpan="2"
+            >1
+        </Label>
+
+        <!-- TextBox will take the value of zeros and ones -->
+        <!-- MaxLength is one so, it will take only one number -->
+        <!-- TextBoxes are in the second row of the mainGrid -->
+        <!-- The Tag represent the label value above the TextBox which will be used in the Binary number calculations -->
+        <!-- The GridColumn will increase 1 from left to right -->
+        <!-- VerticalContentAlignment, MaxLength, GridRow, FontSize, TextAlignment, Width, Height, Background will stay the same in all the TextBoxes -->
+
+        <TextBox
+            VerticalContentAlignment="Center" 
+            MaxLength="1" 
+            Grid.Column="0" 
+            Grid.Row="2"
+            FontSize="20" 
+            Tag="256"
+            TextAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="70" 
+            Height="70"
+            Background="LightBlue" 
+            Margin="6,18,7,12"
+            />
+
+        <TextBox
+            VerticalContentAlignment="Center" 
+            MaxLength="1"
+            Grid.Column="1"
+            Grid.Row="2" 
+            FontSize="20" 
+            Tag="128" 
+            TextAlignment="Center"
+            HorizontalAlignment="Center" 
+            Width="70"
+            Height="70" 
+            Background="LightBlue"
+            Margin="7,18,6,12"
+            />
+
+        <TextBox
+            VerticalContentAlignment="Center" 
+            MaxLength="1" 
+            Grid.Column="2" 
+            Grid.Row="2" 
+            FontSize="20"
+            Tag="64" 
+            TextAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="70"
+            Height="70" 
+            Background="LightBlue"
+            Margin="6,18,7,12"
+            />
+
+        <TextBox 
+            VerticalContentAlignment="Center" 
+            MaxLength="1" 
+            Grid.Column="3" 
+            Grid.Row="2" 
+            FontSize="20" 
+            Tag="32" 
+            TextAlignment="Center" 
+            HorizontalAlignment="Center" 
+            Width="70" 
+            Height="70" 
+            Background="LightBlue" 
+            Margin="7,18,6,12"
+            />
+
+        <TextBox 
+            VerticalContentAlignment="Center" 
+            MaxLength="1" 
+            Grid.Column="4" 
+            Grid.Row="2" 
+            FontSize="20" 
+            Tag="16" 
+            TextAlignment="Center" 
+            HorizontalAlignment="Center" 
+            Width="70" 
+            Height="70" 
+            Background="LightBlue" 
+            Margin="6,18,7,12"
+            />
+
+        <TextBox 
+            VerticalContentAlignment="Center"
+            MaxLength="1" 
+            Grid.Column="5" 
+            Grid.Row="2" 
+            FontSize="20" 
+            Tag="8" 
+            TextAlignment="Center" 
+            HorizontalAlignment="Center" 
+            Width="70" 
+            Height="70" 
+            Background="LightBlue"
+            Margin="7,18,6,12"
+            />
+
+        <TextBox 
+            VerticalContentAlignment="Center" 
+            MaxLength="1" 
+            Grid.Column="6" 
+            Grid.Row="2" 
+            FontSize="20" 
+            Tag="4" 
+            TextAlignment="Center" 
+            HorizontalAlignment="Center" 
+            Width="70" 
+            Height="70" 
+            Background="LightBlue" 
+            Margin="6,18,7,12"
+            />
+
+        <TextBox 
+            VerticalContentAlignment="Center" 
+            MaxLength="1" 
+            Grid.Column="7" 
+            Grid.Row="2" 
+            FontSize="20" 
+            Tag="2" 
+            TextAlignment="Center" 
+            HorizontalAlignment="Center" 
+            Width="70" 
+            Height="70" 
+            Background="LightBlue"
+            Margin="7,18,6,12"
+            />
+
+        <TextBox 
+            VerticalContentAlignment="Center" 
+            MaxLength="1" 
+            Grid.Column="8" 
+            Grid.Row="2" 
+            FontSize="20" 
+            Tag="1" 
+            TextAlignment="Center" 
+            HorizontalAlignment="Center" 
+            Width="70" 
+            Height="70" 
+            Background="LightBlue"
+            Margin="6,18,7,12"
+            />
+
+        <!-- The label where the Question will be shown when the user start the game -->
+
+        <Label
+            Name="txtQuestion"
+            Grid.Row="2"
+            Grid.ColumnSpan="7"
+            Grid.Column="1"
+            FontSize="32" 
+            Foreground="Red"
+            HorizontalContentAlignment="Center"
+            Margin="0,92,0,213" 
+            Grid.RowSpan="3"
+            >Question
+        </Label>
+
+        <!-- The label where the answer will be shown when the user click on the Check Button -->
+
+        <Label 
+            Name="txtAnswer" 
+            Grid.Row="4" 
+            Grid.ColumnSpan="7"
+            Grid.Column="1" 
+            FontSize="32" 
+            Foreground="Blue"
+            HorizontalContentAlignment="Center"
+            Margin="0,15.485,0,155"
+            >Answer
+        </Label>
+
+        <!-- This Button will check if the answer entered by the user is correct or incorrect -->
+
+        <Button 
+            Name="btnCheck"
+            Click="CheckGame"
+            FontSize="16"
+            Grid.Row="4"
+            Grid.Column="3"
+            Grid.ColumnSpan="3"
+            Margin="79,85.485,80,94"
+            Height="60"
+            Width="90"
+            >Check!
+        </Button>
+
+        <!-- enigma Button will show a MessageBox with the name of the team members -->
+        <Button 
+            Name="btnenigma" 
+            Click="enigma"
+            FontSize="16"
+            Grid.Row="4"
+            Background="LightSkyBlue"
+            Grid.ColumnSpan="1"
+            Width="60"
+            Margin="14,158.485,9,14"
+            >enigma</Button>
+
+    </Grid>
+</Window>
